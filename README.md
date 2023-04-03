@@ -2,5 +2,5 @@
 
 ```
 bundle install
-bundle exec puma
+bundle exec puma -b 'tcp://0.0.0.0:80'
 ```
